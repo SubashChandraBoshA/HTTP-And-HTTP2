@@ -1,0 +1,18 @@
+Internal Representation Of Objects In Java Script
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types.
+
+ 	String
+ 	Number
+ 	Boolean
+ 	Null
+ 	Undefined
+ 	Symbol
+ 	Bigint
+
+In the sense that these primitive data-types all hold a single value, depending on their types.
+
+The complexity of objects means that they can contain both basic data types and reference data types.
+A reference data type is an object. Variables that are assigned a reference value are given a reference or a pointer to that value. The location of the object's storage in memory is where the reference or pointer points to. The variables are not responsible for storing the value.
+
+In JavaScript, objects can be described as a collection of related data, either primitive or reference types, in the form of 'key: value' pairs. These keys can be variables or functions and are respectively called properties and methods in the context of an object. An object can be created with figure brackets {} with an optional list of properties. A property is a pair of keys and values, where the key is the property name and the value can be anything.
